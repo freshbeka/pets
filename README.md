@@ -34,12 +34,17 @@ If you find a bug, please file an issue.
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Here are two simple examples that allow you to express your feelings
+about cats:
 
 ``` r
 library(pets)
-## basic example code
-```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+## if you like cats
+cats(TRUE)
+#> [1] "I love cats!"
+
+## if you don't like cats
+cats(FALSE)
+#> [1] "I am not a cat person."
+```
