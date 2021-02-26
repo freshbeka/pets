@@ -1,24 +1,24 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pets <img src="man/figures/logo.png" align="right" alt="" width="120" />
+# pets
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
 The goal of pets is to provide a simple means for people to express
-their feelings about pets. At present, the package only contains one
+their feelings about pets. At present, the packge only contains one
 function: `cats()`.
 
 ## Installation
 
-You can install the released version of pets from
-[GitHub](https://github.com) with:
+You can install the development version from
+[GitHub](https://github.com/) with:
 
 ``` r
-install.packages("devtools")
-devtools::insta_github("Freshbeka/pets")
+# install.packages("devtools")
+devtools::install_github("freshbeka/pets")
 ```
 
 And the development version from [GitHub](https://github.com/) with:
@@ -27,10 +27,6 @@ And the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("freshbeka/pets")
 ```
-
-## Error reporting
-
-If you find a bug, please file an issue.
 
 ## Example
 
